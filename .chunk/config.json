@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "name": "run_tests",
+      "run": "npm ci && npx mocha test/ --reporter mochawesome --reporter-options reportDir=test-results,reportFilename=test-results",
+      "local": true
+    }
+  ]
+}
