@@ -8,23 +8,27 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/punkdata/nodejs-circleci.git"
+    "url": "git+https://github.com/CIRCLECI-GWP/circle-cli-node.git"
   },
   "author": "Angel Rivera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/punkdata/nodejs-circleci/issues"
+    "url": "https://github.com/CIRCLECI-GWP/circle-cli-node/issues"
   },
-  "homepage": "https://github.com/punkdata/nodejs-circleci.git#readme",
+  "homepage": "https://github.com/CIRCLECI-GWP/circle-cli-node#readme",
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "mocha": "^5.2.0",
-    "mochawesome": "^4.1.0",
-    "request": "^2.88.0"
+    "ejs": "^7.0.2",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
   }
 }
